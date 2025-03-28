@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клуб UX/UI и немного фронта: Кто хочет стать Фронтендером?</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="screen visible">
+      <div class="image-title"></div>
+      <h2 class="heading">Кто хочет стать Фронтендером?</h2>
+      <button type="button" class="start-game button">
+        Начать игру
+      </button>
+    </div>
+
+    <div class="screen">
+      <div id="countdown">
+        <div id="countdown-number" class="countdown-number">15</div>
+        <svg>
+          <circle r="40" cx="50" cy="50"></circle>
+        </svg>
+      </div>
+      <div class="image-screen"></div>
+      <h2 class="heading question">Кто хочет стать Фронтендером?</h2>
+      <h2 class="point-fonts">
+        Счет: <span class="money">0</span>
+      </h2>
+      <ul class="answer-list">
+        <li>
+          <button type="button" class="answer button">1</button>
+        </li>
+        <li>
+          <button type="button" class="answer button">2</button>
+        </li>
+        <li>
+          <button type="button" class="answer button">3</button>
+        </li>
+        <li>
+          <button type="button" class="answer button">4</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <div class="image-lose"></div>
+      <h2 class="heading">Вам еще рано становится фронтендером</h2>
+      <h2 class="point-fonts">
+        Счет: <span class="money">0</span>
+      </h2>
+      <button type="button" class="start-game button">
+        Повторить
+      </button>
+    </div>
+
+    <div class="screen">
+      <div class="confetti-container"></div>
+      <div class="image-win"></div>
+      <h2 class="heading">Вы готовы стать настоящим фронтендером!</h2>
+      <h2 class="point-fonts">
+        Счет: <span class="money">0</span>
+      </h2>
+      <button type="button" class="start-game button">
+        Повторить
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
